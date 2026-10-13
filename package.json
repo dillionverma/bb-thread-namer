@@ -1,6 +1,6 @@
 {
   "name": "bb-plugin-thread-namer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Name threads automatically with an agent, with configurable models and naming policies.",
   "license": "MIT",
   "type": "module",
