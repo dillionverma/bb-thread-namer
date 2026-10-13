@@ -12,14 +12,14 @@ import {
   type AgentSelection,
   type ModelChoice,
   type ReasoningLevel,
-} from "./lib/models";
+} from "./naming/models";
 import {
   isNameable,
   shouldAutoRename,
   type NamingMode,
   type NamingRecord,
   type ThreadFacts,
-} from "./lib/policy";
+} from "./naming/policy";
 import {
   DEFAULT_INSTRUCTION,
   buildNamingPrompt,
@@ -27,7 +27,7 @@ import {
   continuationId,
   stripContinuation,
   type OutlineItem,
-} from "./lib/title";
+} from "./naming/title";
 
 export { DEFAULT_INSTRUCTION };
 

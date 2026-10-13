@@ -1,5 +1,5 @@
 import { definePluginApp } from "@get-bb/plugin-sdk/app";
-import { ModelPicker } from "@/components/ModelPicker";
+import { ModelPicker } from "@/naming/ModelPicker";
 
 export default definePluginApp((app) => {
 
